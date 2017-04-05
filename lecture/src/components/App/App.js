@@ -49,7 +49,7 @@ const App = ({
         )}
       </ul>
 
-      <Modal isOpen-{showClubs}
+      <Modal isOpen={showClubs}
         overlayClassName="modal-overlay"
         className="modal"
         contentLabel="Club">

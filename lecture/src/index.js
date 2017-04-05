@@ -6,10 +6,10 @@ import { createStore } from 'redux'
 
 import clubsReducer from './core-module/reducers'
 
-//import App from './App';
+import App from './components/App';
 //import './index.css';
 
-let store = createStore{clubsReducer}
+let store = createStore(clubsReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__())
 
 ReactDOM.render(
 	<Provider store={store}>
