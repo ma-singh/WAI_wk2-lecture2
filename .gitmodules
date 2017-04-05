@@ -1,0 +1,3 @@
+[submodule "lecture/src/core-module"]
+	path = lecture/src/core-module
+	url = https://github.com/ma-singh/WAI_wk2-Lecture.git
