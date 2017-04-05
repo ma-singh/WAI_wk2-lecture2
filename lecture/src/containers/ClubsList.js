@@ -7,7 +7,7 @@ import {
 	showClubs
 } from '../core-module/actions'
 
-// import Clubs from '../components/Clubs'
+ import App from '../components/App'
 
 // mapStateToProps
 const mapStateToProps = (state) => {
@@ -30,4 +30,4 @@ const mapDispatchToProps = (dispatch) => {
 	}, dispatch)
 }
 
-export default connect(maptStateToProps, mapDispatchToProps)(Clubs)
+export default connect(maptStateToProps, mapDispatchToProps)(App)
